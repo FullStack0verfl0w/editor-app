@@ -1,0 +1,46 @@
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.editor-textarea {
+    font-size: 18px;
+}
+
+.editor-top {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.editor-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.editor-bottom button {
+    font-size: 18px;
+    padding: .5em 2em .5em 2em;
+}
+
+.history-list {
+    width: 480px;
+    height: 480px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    border: 1px solid black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.history-list-element {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding: 4px;
+}
